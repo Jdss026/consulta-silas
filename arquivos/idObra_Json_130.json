@@ -1,0 +1,613 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "wbsCode": "01",
+      "workItemId": null,
+      "description": "OR\u00c7AMENTO BOUTIQUE CAF\u00c9",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 43170.29 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 81076.04 }
+      ]
+    },
+    {
+      "id": "2",
+      "wbsCode": "01.001",
+      "workItemId": null,
+      "description": "FUNDA\u00c7\u00c3O",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 78.41 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 3151.58 }
+      ]
+    },
+    {
+      "id": "3",
+      "wbsCode": "01.001.000.001",
+      "workItemId": 13782,
+      "description": "CORTE E DOBRA DE A\u00c7O CA-50, DI\u00c2METRO DE 8,0 MM, UTILIZADO EM ESTRUTURAS DIVERSAS, EXCETO LAJES. AF_12/2015",
+      "unitOfMeasure": "kg",
+      "quantity": 82.4,
+      "unitPrice": 11.0568,
+      "totalPrice": 911.08,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.4008, "totalPrice": 33.03 },
+        { "category": "MATERIAL", "unitPrice": 10.656, "totalPrice": 878.05 }
+      ]
+    },
+    {
+      "id": "4",
+      "wbsCode": "01.001.000.002",
+      "workItemId": 15284,
+      "description": "CONCRETAGEM DE SAPATAS, FCK 30 MPA, COM USO DE BOMBA ? LAN\u00c7AMENTO, ADENSAMENTO E ACABAMENTO. AF_11/2016",
+      "unitOfMeasure": "m3",
+      "quantity": 2.6,
+      "unitPrice": 891.8908,
+      "totalPrice": 2318.91,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 17.4546, "totalPrice": 45.38 },
+        { "category": "MATERIAL", "unitPrice": 874.4362, "totalPrice": 2273.53 }
+      ]
+    },
+    {
+      "id": "5",
+      "wbsCode": "01.002",
+      "workItemId": null,
+      "description": "SUPERESTRUTURA",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 1920.35 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 28612.58 }
+      ]
+    },
+    {
+      "id": "6",
+      "wbsCode": "01.002.000.001",
+      "workItemId": 13793,
+      "description": "CORTE E DOBRA DE A\u00c7O CA-50, DI\u00c2METRO DE 12,5 MM, UTILIZADO EM LAJE. AF_12/2015",
+      "unitOfMeasure": "kg",
+      "quantity": 660.0,
+      "unitPrice": 8.7885,
+      "totalPrice": 5800.41,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0861, "totalPrice": 56.83 },
+        { "category": "MATERIAL", "unitPrice": 8.7024, "totalPrice": 5743.58 }
+      ]
+    },
+    {
+      "id": "7",
+      "wbsCode": "01.002.000.002",
+      "workItemId": 31300,
+      "description": "CORTE E DOBRA DE A\u00c7O CA-60, DI\u00c2METRO DE 5,0 MM. AF_06/2022",
+      "unitOfMeasure": "kg",
+      "quantity": 127.6,
+      "unitPrice": 11.9119,
+      "totalPrice": 1519.96,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 1.5329, "totalPrice": 195.6 },
+        { "category": "MATERIAL", "unitPrice": 10.379, "totalPrice": 1324.36 }
+      ]
+    },
+    {
+      "id": "8",
+      "wbsCode": "01.002.000.003",
+      "workItemId": 16288,
+      "description": "CONCRETAGEM DE EDIFICA\u00c7\u00d5ES (PAREDES E LAJES) FEITAS COM SISTEMA DE F\u00d4RMAS MANUSE\u00c1VEIS, COM CONCRETO USINADO AUTOADENS\u00c1VEL FCK 25 MPA - LAN\u00c7AMENTO E ACABAMENTO. AF_06/2015",
+      "unitOfMeasure": "m3",
+      "quantity": 9.3,
+      "unitPrice": 823.1493,
+      "totalPrice": 7655.29,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 13.6063, "totalPrice": 126.54 },
+        { "category": "MATERIAL", "unitPrice": 809.543, "totalPrice": 7528.75 }
+      ]
+    },
+    {
+      "id": "9",
+      "wbsCode": "01.002.000.004",
+      "workItemId": 30904,
+      "description": "FABRICA\u00c7\u00c3O DE F\u00d4RMA PARA PILARES E ESTRUTURAS SIMILARES, EM CHAPA DE MADEIRA COMPENSADA PLASTIFICADA, E = 18 MM. AF_09/2020",
+      "unitOfMeasure": "m2",
+      "quantity": 40.0,
+      "unitPrice": 242.6817,
+      "totalPrice": 9707.27,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 38.5345, "totalPrice": 1541.38 },
+        { "category": "MATERIAL", "unitPrice": 204.1472, "totalPrice": 8165.89 }
+      ]
+    },
+    {
+      "id": "10",
+      "wbsCode": "01.002.000.005",
+      "workItemId": 80000,
+      "description": "SERVI\u00c7O DE EXECU\u00c7AO DE LAJES TRELI\u00c7ADAS, FORNECIMENTO DA TRELI\u00c7AS E EPS",
+      "unitOfMeasure": "vb",
+      "quantity": 1.0,
+      "unitPrice": 5850.0,
+      "totalPrice": 5850.0,
+      "pricesByCategory": [
+        { "category": "MATERIAL", "unitPrice": 5850.0, "totalPrice": 5850.0 }
+      ]
+    },
+    {
+      "id": "11",
+      "wbsCode": "01.003",
+      "workItemId": null,
+      "description": "ARQUITETURA",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 32665.39 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 26053.76 }
+      ]
+    },
+    {
+      "id": "12",
+      "wbsCode": "01.003.001",
+      "workItemId": null,
+      "description": "VEDA\u00c7\u00d5ES, PISOS E REVESTIMENTOS",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 16374.4 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 22161.91 }
+      ]
+    },
+    {
+      "id": "13",
+      "wbsCode": "01.003.001.001",
+      "workItemId": 12469,
+      "description": "SERVI\u00c7O DE ALVENARIA DE VEDA\u00c7\u00c3O DE BLOCOS VAZADOS DE CER\u00c2MICA DE 14X9X19CM (ESPESSURA 14CM, BLOCO DEITADO), PARA EDIFICA\u00c7\u00c3O HABITACIONAL UNIFAMILIAR (CASA) E EDIFICA\u00c7\u00c3O P\u00daBLICA PADR\u00c3O. AF_12/2014",
+      "unitOfMeasure": "m2",
+      "quantity": 121.84,
+      "unitPrice": 96.0236,
+      "totalPrice": 11699.52,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 71.0617, "totalPrice": 8658.16 },
+        { "category": "MATERIAL", "unitPrice": 24.9619, "totalPrice": 3041.36 }
+      ]
+    },
+    {
+      "id": "14",
+      "wbsCode": "01.003.001.002",
+      "workItemId": 3709,
+      "description": "Chapisco Externo",
+      "unitOfMeasure": "m2",
+      "quantity": 121.84,
+      "unitPrice": 7.6199,
+      "totalPrice": 928.41,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.3369, "totalPrice": 41.05 },
+        { "category": "MATERIAL", "unitPrice": 7.283, "totalPrice": 887.36 }
+      ]
+    },
+    {
+      "id": "15",
+      "wbsCode": "01.003.001.003",
+      "workItemId": 11705,
+      "description": "APLICA\u00c7\u00c3O MANUAL DE PINTURA COM TINTA L\u00c1TEX ACR\u00cdLICA EM TETO, DUAS DEM\u00c3OS. AF_06/2014",
+      "unitOfMeasure": "m2",
+      "quantity": 54.0,
+      "unitPrice": 23.9253,
+      "totalPrice": 1291.97,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 10.3689, "totalPrice": 559.92 },
+        { "category": "MATERIAL", "unitPrice": 13.5564, "totalPrice": 732.05 }
+      ]
+    },
+    {
+      "id": "16",
+      "wbsCode": "01.003.001.004",
+      "workItemId": 29450,
+      "description": "APLICA\u00c7\u00c3O MANUAL DE PINTURA COM TINTA L\u00c1TEX ACR\u00cdLICA EM PAREDES, DUAS DEM\u00c3OS. AF_06/2014",
+      "unitOfMeasure": "m2",
+      "quantity": 121.84,
+      "unitPrice": 13.2107,
+      "totalPrice": 1609.59,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 5.5052, "totalPrice": 670.75 },
+        { "category": "MATERIAL", "unitPrice": 7.7055, "totalPrice": 938.84 }
+      ]
+    },
+    {
+      "id": "17",
+      "wbsCode": "01.003.001.005",
+      "workItemId": 14765,
+      "description": "TEXTURA ACR\u00cdLICA, APLICA\u00c7\u00c3O MANUAL EM PAREDE, UMA DEM\u00c3O. AF_09/2016",
+      "unitOfMeasure": "m2",
+      "quantity": 110.0,
+      "unitPrice": 22.404,
+      "totalPrice": 2464.44,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 7.9944, "totalPrice": 879.38 },
+        { "category": "MATERIAL", "unitPrice": 14.4096, "totalPrice": 1585.06 }
+      ]
+    },
+    {
+      "id": "18",
+      "wbsCode": "01.003.001.006",
+      "workItemId": 47261,
+      "description": "PISO CERBRAS 46X 46",
+      "unitOfMeasure": "m2",
+      "quantity": 52.2,
+      "unitPrice": 93.8933,
+      "totalPrice": 4901.23,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 21.3645, "totalPrice": 1115.23 },
+        { "category": "MATERIAL", "unitPrice": 72.5288, "totalPrice": 3786.0 }
+      ]
+    },
+    {
+      "id": "19",
+      "wbsCode": "01.003.001.007",
+      "workItemId": 47262,
+      "description": "REVESTIMENTO 33X46 TIPO A HD AURORA BRANCO CERBRAS",
+      "unitOfMeasure": "m2",
+      "quantity": 116.64,
+      "unitPrice": 93.6833,
+      "totalPrice": 10927.23,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 21.3645, "totalPrice": 2491.96 },
+        { "category": "MATERIAL", "unitPrice": 72.3188, "totalPrice": 8435.27 }
+      ]
+    },
+    {
+      "id": "20",
+      "wbsCode": "01.003.001.008",
+      "workItemId": 15134,
+      "description": "FORRO EM PLACAS DE GESSO, PARA AMBIENTES RESIDENCIAIS. AF_05/2017_P",
+      "unitOfMeasure": "m2",
+      "quantity": 54.0,
+      "unitPrice": 64.8762,
+      "totalPrice": 3503.32,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 33.2948, "totalPrice": 1797.92 },
+        { "category": "MATERIAL", "unitPrice": 31.5814, "totalPrice": 1705.4 }
+      ]
+    },
+    {
+      "id": "21",
+      "wbsCode": "01.003.001.009",
+      "workItemId": 44513,
+      "description": "FABRICA\u00c7\u00c3O E INSTALA\u00c7\u00c3O DE ESTRUTURA PONTALETADA DE MADEIRA N\u00c3O APARELHADA PARA TELHADOS COM AT\u00c9 2 \u00c1GUAS E PARA TELHA ONDULADA DE FIBROCIMENTO, MET\u00c1LICA, PL\u00c1STICA OU TERMOAC\u00daSTICA, INCLUSO TRANSPORTE VERTICAL. AF_12/2015",
+      "unitOfMeasure": "m2",
+      "quantity": 34.16,
+      "unitPrice": 35.4391,
+      "totalPrice": 1210.6,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 4.6847, "totalPrice": 160.03 },
+        { "category": "MATERIAL", "unitPrice": 30.7544, "totalPrice": 1050.57 }
+      ]
+    },
+    {
+      "id": "22",
+      "wbsCode": "01.003.002",
+      "workItemId": null,
+      "description": "ESQUADRIAS",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 16290.99 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 3891.85 }
+      ]
+    },
+    {
+      "id": "23",
+      "wbsCode": "01.003.002.001",
+      "workItemId": 45287,
+      "description": "JANELA DE ALUM\u00cdNIO DE CORRER COM 2 FOLHAS PARA VIDROS, COM VIDROS, BATENTE, ACABAMENTO COM ACETATO OU BRILHANTE E FERRAGENS. EXCLUSIVE ALIZAR E CONTRAMARCO. FORNECIMENTO E INSTALA\u00c7\u00c3O. AF_12/2019",
+      "unitOfMeasure": "m2",
+      "quantity": 2.0,
+      "unitPrice": 268.1647,
+      "totalPrice": 536.32,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 17.7173, "totalPrice": 35.43 },
+        { "category": "MATERIAL", "unitPrice": 250.4474, "totalPrice": 500.89 }
+      ]
+    },
+    {
+      "id": "24",
+      "wbsCode": "01.003.002.002",
+      "workItemId": 80001,
+      "description": "Esquadria alum\u00ednio e vidro 60 x 60",
+      "unitOfMeasure": "un",
+      "quantity": 6.0,
+      "unitPrice": 208.8,
+      "totalPrice": 1252.8,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 208.8, "totalPrice": 1252.8 }
+      ]
+    },
+    {
+      "id": "25",
+      "wbsCode": "01.003.002.003",
+      "workItemId": 80002,
+      "description": "Port\u00e3o duas folhas. 2,80x 2,50",
+      "unitOfMeasure": "un",
+      "quantity": 1.0,
+      "unitPrice": 4900.0,
+      "totalPrice": 4900.0,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 4900.0, "totalPrice": 4900.0 }
+      ]
+    },
+    {
+      "id": "26",
+      "wbsCode": "01.003.002.004",
+      "workItemId": 80003,
+      "description": "PORTAS 60 CM",
+      "unitOfMeasure": "un",
+      "quantity": 2.0,
+      "unitPrice": 1077.2928,
+      "totalPrice": 2154.59,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 233.7289, "totalPrice": 467.46 },
+        { "category": "MATERIAL", "unitPrice": 843.5639, "totalPrice": 1687.13 }
+      ]
+    },
+    {
+      "id": "27",
+      "wbsCode": "01.003.002.005",
+      "workItemId": 40967,
+      "description": "PORTA PIVOTANTE DE VIDRO TEMPERADO, 90X210 CM, ESPESSURA 10 MM, INCLUSIVE ACESS\u00d3RIOS. AF_01/2021",
+      "unitOfMeasure": "un",
+      "quantity": 1.0,
+      "unitPrice": 945.6204,
+      "totalPrice": 945.62,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 72.2444, "totalPrice": 72.24 },
+        { "category": "MATERIAL", "unitPrice": 873.376, "totalPrice": 873.38 }
+      ]
+    },
+    {
+      "id": "28",
+      "wbsCode": "01.003.002.006",
+      "workItemId": 33993,
+      "description": "PORTA EM ALUM\u00cdNIO DE ABRIR , DUAS FOLHAS ABRIGO DE G\u00c1S 90X90",
+      "unitOfMeasure": "un",
+      "quantity": 1.0,
+      "unitPrice": 943.5042,
+      "totalPrice": 943.51,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 113.055, "totalPrice": 113.06 },
+        { "category": "MATERIAL", "unitPrice": 830.4492, "totalPrice": 830.45 }
+      ]
+    },
+    {
+      "id": "29",
+      "wbsCode": "01.003.002.007",
+      "workItemId": 80004,
+      "description": "Porta de rolo autom\u00e1tica",
+      "unitOfMeasure": "un",
+      "quantity": 1.0,
+      "unitPrice": 9450.0,
+      "totalPrice": 9450.0,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 9450.0, "totalPrice": 9450.0 }
+      ]
+    },
+    {
+      "id": "30",
+      "wbsCode": "01.004",
+      "workItemId": null,
+      "description": "DIVERSOS INSTALA\u00c7OES",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 3468.84 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 17629.41 }
+      ]
+    },
+    {
+      "id": "31",
+      "wbsCode": "01.004.000.001",
+      "workItemId": 41462,
+      "description": "AR CONDICIONADO SPLIT INVERTER, HI-WALL (PAREDE), 18000 BTU/H, CICLO FRIO - FORNECIMENTO E INSTALA\u00c7\u00c3O. AF_11/2021_P",
+      "unitOfMeasure": "un",
+      "quantity": 3.0,
+      "unitPrice": 3380.9492,
+      "totalPrice": 10142.85,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 118.1092, "totalPrice": 354.33 },
+        { "category": "MATERIAL", "unitPrice": 3262.84, "totalPrice": 9788.52 }
+      ]
+    },
+    {
+      "id": "32",
+      "wbsCode": "01.004.000.002",
+      "workItemId": 11109,
+      "description": "TORNEIRA CROMADA LONGA, DE PAREDE, 1/2\" OU 3/4\", PARA PIA DE COZINHA, PADR\u00c3O M\u00c9DIO - FORNECIMENTO E INSTALA\u00c7\u00c3O. AF_12/2013",
+      "unitOfMeasure": "un",
+      "quantity": 5.0,
+      "unitPrice": 74.3397,
+      "totalPrice": 371.7,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 4.6864, "totalPrice": 23.43 },
+        { "category": "MATERIAL", "unitPrice": 69.6533, "totalPrice": 348.27 }
+      ]
+    },
+    {
+      "id": "33",
+      "wbsCode": "01.004.000.003",
+      "workItemId": 11093,
+      "description": "BANCADA DE GRANITO CINZA POLIDO PARA PIA DE COZINHA 2,50 X 0,60 M - FORNECIMENTO E INSTALA\u00c7\u00c3O. AF_12/2013",
+      "unitOfMeasure": "un",
+      "quantity": 2.0,
+      "unitPrice": 1329.4246,
+      "totalPrice": 2658.85,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 72.4958, "totalPrice": 144.99 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 1256.9288,
+          "totalPrice": 2513.86
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "wbsCode": "01.004.000.004",
+      "workItemId": 28930,
+      "description": "CUBA DE EMBUTIR RETANGULAR DE A\u00c7O INOXID\u00c1VEL, 46 X 30 X 12 CM - FORNECIMENTO E INSTALA\u00c7\u00c3O. AF_01/2020",
+      "unitOfMeasure": "un",
+      "quantity": 3.0,
+      "unitPrice": 199.4431,
+      "totalPrice": 598.33,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 13.1692, "totalPrice": 39.51 },
+        { "category": "MATERIAL", "unitPrice": 186.2739, "totalPrice": 558.82 }
+      ]
+    },
+    {
+      "id": "35",
+      "wbsCode": "01.004.000.005",
+      "workItemId": 27932,
+      "description": "CAIXA D\u00b4\u00c1GUA EM POLIETILENO, 1000 LITROS (INCLUSOS TUBOS, CONEX\u00d5ES E TORNEIRA DE B\u00d3IA) - FORNECIMENTO E INSTALA\u00c7\u00c3O. AF_06/2021",
+      "unitOfMeasure": "un",
+      "quantity": 1.0,
+      "unitPrice": 892.3072,
+      "totalPrice": 892.31,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 113.1054, "totalPrice": 113.11 },
+        { "category": "MATERIAL", "unitPrice": 779.2018, "totalPrice": 779.2 }
+      ]
+    },
+    {
+      "id": "36",
+      "wbsCode": "01.004.000.006",
+      "workItemId": 12461,
+      "description": "PONTO DE CONSUMO TERMINAL DE \u00c1GUA FRIA (SUBRAMAL) COM TUBULA\u00c7\u00c3O DE PVC, DN 25 MM, INSTALADO EM RAMAL DE \u00c1GUA, INCLUSOS RASGO E CHUMBAMENTO EM ALVENARIA. AF_12/2014",
+      "unitOfMeasure": "un",
+      "quantity": 6.0,
+      "unitPrice": 183.9571,
+      "totalPrice": 1103.75,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 149.7294, "totalPrice": 898.38 },
+        { "category": "MATERIAL", "unitPrice": 34.2277, "totalPrice": 205.37 }
+      ]
+    },
+    {
+      "id": "37",
+      "wbsCode": "01.004.000.007",
+      "workItemId": 19085,
+      "description": "PONTO DE ESGOTO - COMPOSI\u00c7\u00c3O GEN\u00c9RICA",
+      "unitOfMeasure": "un",
+      "quantity": 4.0,
+      "unitPrice": 267.6151,
+      "totalPrice": 1070.46,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 223.7727, "totalPrice": 895.09 },
+        { "category": "MATERIAL", "unitPrice": 43.8424, "totalPrice": 175.37 }
+      ]
+    },
+    {
+      "id": "38",
+      "wbsCode": "01.004.000.008",
+      "workItemId": 80005,
+      "description": "SERVI\u00c7O DE FORNECIMENTO E INSTAL\u00c7\u00c3O DE G\u00c1S",
+      "unitOfMeasure": "vb",
+      "quantity": 1.0,
+      "unitPrice": 4260.0,
+      "totalPrice": 4260.0,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 1000.0, "totalPrice": 1000.0 },
+        { "category": "MATERIAL", "unitPrice": 3260.0, "totalPrice": 3260.0 }
+      ]
+    },
+    {
+      "id": "39",
+      "wbsCode": "01.005",
+      "workItemId": null,
+      "description": "ELETRICA",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 5037.3 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 5628.71 }
+      ]
+    },
+    {
+      "id": "40",
+      "wbsCode": "01.005.000.001",
+      "workItemId": 16514,
+      "description": "PAINEL LED 18W",
+      "unitOfMeasure": "un",
+      "quantity": 14.0,
+      "unitPrice": 139.2734,
+      "totalPrice": 1949.83,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 13.8934, "totalPrice": 194.51 },
+        { "category": "MATERIAL", "unitPrice": 125.38, "totalPrice": 1755.32 }
+      ]
+    },
+    {
+      "id": "41",
+      "wbsCode": "01.005.000.002",
+      "workItemId": 16517,
+      "description": "PAINEL LED 36W",
+      "unitOfMeasure": "un",
+      "quantity": 1.0,
+      "unitPrice": 172.3301,
+      "totalPrice": 172.33,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 15.9501, "totalPrice": 15.95 },
+        { "category": "MATERIAL", "unitPrice": 156.38, "totalPrice": 156.38 }
+      ]
+    },
+    {
+      "id": "42",
+      "wbsCode": "01.005.000.003",
+      "workItemId": 44920,
+      "description": "PONTO DE ILUMINA\u00c7\u00c3O RESIDENCIAL INCLUINDO INTERRUPTOR SIMPLES, CAIXA EL\u00c9TRICA, ELETRODUTO, CABO, RASGO, QUEBRA E CHUMBAMENTO (EXCLUINDO LUMIN\u00c1RIA E L\u00c2MPADA). AF_01/2016",
+      "unitOfMeasure": "un",
+      "quantity": 15.0,
+      "unitPrice": 143.829,
+      "totalPrice": 2157.43,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 98.2488, "totalPrice": 1473.73 },
+        { "category": "MATERIAL", "unitPrice": 45.5802, "totalPrice": 683.7 }
+      ]
+    },
+    {
+      "id": "43",
+      "wbsCode": "01.005.000.004",
+      "workItemId": 44929,
+      "description": "PONTO DE UTILIZA\u00c7\u00c3O DE EQUIPAMENTOS EL\u00c9TRICOS, RESIDENCIAL, INCLUINDO SUPORTE E PLACA, CAIXA EL\u00c9TRICA, ELETRODUTO, CABO, RASGO, QUEBRA E CHUMBAMENTO. AF_01/2016",
+      "unitOfMeasure": "un",
+      "quantity": 28.0,
+      "unitPrice": 228.0864,
+      "totalPrice": 6386.42,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 119.7538, "totalPrice": 3353.11 },
+        { "category": "MATERIAL", "unitPrice": 108.3326, "totalPrice": 3033.31 }
+      ]
+    }
+  ],
+  "resultSetMetadata": { "count": 43, "offset": 0, "limit": 100 },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.sienge.com.br/eduardocardoso/public/api/v1/building-cost-estimations/130/sheets/1/items?limit=100"
+    }
+  ]
+}
