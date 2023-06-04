@@ -21,12 +21,12 @@ def validar_inteiro(entrada):
     
 def obter_numero():
     try:
-        global numero_ent_idObra
+        # global numero_ent_idObra
         numero_ent_idObra = int(caixa_entrada.get())
-        numero_ent_uc = float(caixa_entrada_uc.get())
-        numero_ent_bdi = float(caixa_entrada_bdi.get())
-        numero_ent_encargos = float(caixa_entrada_encargos.get())
-        return [numero_ent_idObra, numero_ent_uc, numero_ent_bdi, numero_ent_encargos]
+        numero_ent_uc = caixa_entrada_uc.get()
+        numero_ent_bdi = caixa_entrada_bdi.get()
+        numero_ent_encargos = caixa_entrada_encargos.get()
+        return numero_ent_idObra, numero_ent_uc, numero_ent_bdi, numero_ent_encargos
     except ValueError:
         return False
     
@@ -38,8 +38,9 @@ def obter_numero():
 def comBotaoxlsx():
     atualizar_texto()
     numeros = obter_numero()
-    isRequisitionCompleted(numeros[0])
-    insert_rows_xls(numeros[0])
+    idobra, iduc, bdi, encargos = numeros
+    isRequisitionCompleted(idobra,iduc)
+    insert_rows_xls(idobra,iduc, bdi, encargos)
 
 def obter_numreqmax():
     # Exemplo de função que retorna um número (pode ser substituída pela sua própria lógica)

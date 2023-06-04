@@ -8,7 +8,7 @@ def pullEnterprisesList():
     Implementar lógica para puxar lista de enterprises em um arquivo json unico
     a cada abertura de tela
     '''
-    clientes="/enterprises"
+    clientes="/enterprises?limit=200"
     r = requests.get('https://api.sienge.com.br/eduardocardoso/public/api/v1'+clientes, auth=('eduardocardoso-prevision', '2vmNEPuUuXtYOTRPtUJi1KMXVVcGGXBE'))
 
     if r.status_code == 200:
@@ -24,7 +24,7 @@ def pullEnterprisesList():
     else:
         return False
 
-def isRequisitionCompleted(idObra, idUnit = 1):
+def isRequisitionCompleted(idObra, idUnit):
     # TODO: implementar unidade construtiva para cada IdObra
     # idObras = ["130","148","147","132","99"]
 
@@ -40,7 +40,7 @@ def isRequisitionCompleted(idObra, idUnit = 1):
     if r.status_code == 200:
         s = json.dumps(r.json())
         caminho = get_dir()
-        directory= caminho + "idObra_Json_{}.json".format(idObra)
+        directory= caminho + "idObra_Json_{}_uc_{}.json".format(idObra, idUnit)
 
         with open (directory, "w") as f:
             f.write(s)

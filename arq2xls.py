@@ -18,7 +18,13 @@ def copia_arq(num_idObra):
     return destino
 
 
-def insert_rows_xls(idObra):
+def insert_rows_xls(idObra, idUC, bdi, encargos):
+    '''
+    Função para inserir linha a linha informações de linhaReq2excel, também
+    adiciona taxes (tributação) nas linhas mao de obra e materiais
+    '''
+    bdi = float(bdi)
+    encargos = float(encargos)
     # copia modelo e renomeia para idObra
     copia_arq(idObra)
     destino = caminhos_arq(idObra)
@@ -27,13 +33,17 @@ def insert_rows_xls(idObra):
     arquivo_excel = load_workbook(destino)
 
     # Selecionar a planilha desejada
-    planilha = arquivo_excel['Relatorio']
+    iduc = f"{idUC}"
+    try:
+        planilha = arquivo_excel[iduc]
+    except:
+        planilha = arquivo_excel.create_sheet(title=iduc)
 
     # linha inicial do excel
-    linha_inicial = 9
+    linha_inicial = 12
 
     # retorna tamanho original da requisição
-    tamanho = linhaReq2excel(0, idObra)
+    tamanho = linhaReq2excel(0, idObra, idUC)
 
     cols = len(tamanho[0])
     line = tamanho[1]
@@ -43,12 +53,26 @@ def insert_rows_xls(idObra):
 
     for row in planilha.iter_rows(min_row=linha_inicial, max_col=cols, max_row=line+linha_inicial-1):
         for cell in row:
-            res = linhaReq2excel(cell.row-linha_inicial, idObra)[0][cell.col_idx-1]         
-            cell.value = res
-
+            if cell.col_idx == 5:
+                # linha de mao de obra
+                res = linhaReq2excel(cell.row-linha_inicial, idObra, idUC)[0][cell.col_idx-1] 
+                if res is None:
+                    cell.value = 0
+                else:
+                    cell.value = float(res)*(1+bdi/100)*(1+encargos/100)
+            if cell.col_idx == 6:
+                # linha de materiais
+                res = linhaReq2excel(cell.row-linha_inicial, idObra, idUC)[0][cell.col_idx-1] 
+                if res is None:        
+                    cell.value = 0
+                else:
+                    cell.value = float(res)*(1+encargos/100)
+            else:
+                res = linhaReq2excel(cell.row-linha_inicial, idObra, idUC)[0][cell.col_idx-1]         
+                cell.value = res
     # Salvar as alterações no arquivo Excel
     arquivo_excel.save(destino)
 
-
-#idObra = 99
-#insert_rows_xls(idObra)
+# teste para executar função que adiciona linhas no arquivo xls
+# idObra = 99
+# insert_rows_xls(idObra, 1)

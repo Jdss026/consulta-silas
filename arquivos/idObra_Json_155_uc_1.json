@@ -1,0 +1,1347 @@
+{
+  "results": [
+    {
+      "id": "909",
+      "wbsCode": "01",
+      "workItemId": null,
+      "description": "CANTEIRO DE OBRAS",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 9350.0 },
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 20091.89 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 88803.23 },
+        { "category": "OTHER", "unitPrice": 0.0, "totalPrice": 45000.0 }
+      ]
+    },
+    {
+      "id": "910",
+      "wbsCode": "01.001",
+      "workItemId": null,
+      "description": "ENERGIA E \u00c1GUA PROVIS\u00d3RIAS PARA O CANTEIRO",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 9292.8 },
+        { "category": "OTHER", "unitPrice": 0.0, "totalPrice": 39600.0 }
+      ]
+    },
+    {
+      "id": "911",
+      "wbsCode": "01.001.000.001",
+      "workItemId": 61988,
+      "description": "FORNECIMENTO DE ENERGIA PROVIS\u00d3RIA ALIMENTADO PELO POSTE",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 2000.0,
+      "totalPrice": 22000.0,
+      "pricesByCategory": [
+        { "category": "OTHER", "unitPrice": 2000.0, "totalPrice": 22000.0 }
+      ]
+    },
+    {
+      "id": "912",
+      "wbsCode": "01.001.000.002",
+      "workItemId": 61989,
+      "description": "FORNECIMENTO DE \u00c1GUA PROVIS\u00d3RIA PARA O CANTEIRO DE OBRAS",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 1600.0,
+      "totalPrice": 17600.0,
+      "pricesByCategory": [
+        { "category": "OTHER", "unitPrice": 1600.0, "totalPrice": 17600.0 }
+      ]
+    },
+    {
+      "id": "913",
+      "wbsCode": "01.001.000.003",
+      "workItemId": 61294,
+      "description": "FORNECIMENTO DE \u00c1GUA POT\u00c1VEL PARA O CANTEIRO DE OBRAS",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 844.8,
+      "totalPrice": 9292.8,
+      "pricesByCategory": [
+        { "category": "MATERIAL", "unitPrice": 844.8, "totalPrice": 9292.8 }
+      ]
+    },
+    {
+      "id": "914",
+      "wbsCode": "01.002",
+      "workItemId": null,
+      "description": "OPERA\u00c7\u00c3O",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 9350.0 },
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 6723.55 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 38376.88 }
+      ]
+    },
+    {
+      "id": "915",
+      "wbsCode": "01.002.000.001",
+      "workItemId": 33795,
+      "description": "LOCA\u00c7\u00c3O E FRETE DE CONTAINER PARA ESCRIT\u00d3RIO",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 1050.0,
+      "totalPrice": 11550.0,
+      "pricesByCategory": [
+        { "category": "MATERIAL", "unitPrice": 1050.0, "totalPrice": 11550.0 }
+      ]
+    },
+    {
+      "id": "946",
+      "wbsCode": "01.002.000.002",
+      "workItemId": 47113,
+      "description": "LOCA\u00c7\u00c3O DE CONTAINER PARA ALMOXARIFADO",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 850.0,
+      "totalPrice": 9350.0,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 850.0, "totalPrice": 9350.0 }
+      ]
+    },
+    {
+      "id": "917",
+      "wbsCode": "01.002.000.003",
+      "workItemId": 58081,
+      "description": "EXECU\u00c7\u00c3O DE CENTRAL DE ARMADURA EM CANTEIRO DE OBRA, N\u00c3O INCLUSO MOBILI\u00c1RIO E EQUIPAMENTOS. AF_04/2016",
+      "unitOfMeasure": "m2",
+      "quantity": 40.0,
+      "unitPrice": 236.8532,
+      "totalPrice": 9474.12,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 47.286, "totalPrice": 1891.44 },
+        { "category": "MATERIAL", "unitPrice": 189.5672, "totalPrice": 7582.68 }
+      ]
+    },
+    {
+      "id": "918",
+      "wbsCode": "01.002.000.004",
+      "workItemId": 58082,
+      "description": "EXECU\u00c7\u00c3O DE CENTRAL DE F\u00d4RMAS, PRODU\u00c7\u00c3O DE ARGAMASSA OU CONCRETO EM CANTEIRO DE OBRA, N\u00c3O INCLUSO MOBILI\u00c1RIO E EQUIPAMENTOS. AF_04/2016",
+      "unitOfMeasure": "m2",
+      "quantity": 60.0,
+      "unitPrice": 401.2719,
+      "totalPrice": 24076.31,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 80.5352, "totalPrice": 4832.11 },
+        { "category": "MATERIAL", "unitPrice": 320.7367, "totalPrice": 19244.2 }
+      ]
+    },
+    {
+      "id": "920",
+      "wbsCode": "01.003",
+      "workItemId": null,
+      "description": "VIV\u00caNCIA",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 13368.34 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 41133.55 },
+        { "category": "OTHER", "unitPrice": 0.0, "totalPrice": 5400.0 }
+      ]
+    },
+    {
+      "id": "921",
+      "wbsCode": "01.003.000.001",
+      "workItemId": 57949,
+      "description": "EXECU\u00c7\u00c3O DE REFEIT\u00d3RIO EM CANTEIRO DE OBRA EM CHAPA DE MADEIRA COMPENSADA, N\u00c3O INCLUSO MOBILI\u00c1RIO E EQUIPAMENTOS. AF_02/2016",
+      "unitOfMeasure": "m2",
+      "quantity": 50.0,
+      "unitPrice": 534.0752,
+      "totalPrice": 26703.77,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 117.0584, "totalPrice": 5852.92 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 417.0168,
+          "totalPrice": 20850.85
+        }
+      ]
+    },
+    {
+      "id": "922",
+      "wbsCode": "01.003.000.002",
+      "workItemId": 57952,
+      "description": "EXECU\u00c7\u00c3O DE SANIT\u00c1RIO E VESTI\u00c1RIO EM CANTEIRO DE OBRA EM ALVENARIA, N\u00c3O INCLUSO MOBILI\u00c1RIO. AF_02/2016",
+      "unitOfMeasure": "m2",
+      "quantity": 30.0,
+      "unitPrice": 926.6038,
+      "totalPrice": 27798.12,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 250.5139, "totalPrice": 7515.42 },
+        { "category": "MATERIAL", "unitPrice": 676.0899, "totalPrice": 20282.7 }
+      ]
+    },
+    {
+      "id": "923",
+      "wbsCode": "01.003.000.003",
+      "workItemId": 20737,
+      "description": "LIMPEZA E MANUTEN\u00c7\u00c3O DE FOSSA (CANTEIRO DE OBRAS)",
+      "unitOfMeasure": "vb",
+      "quantity": 1.0,
+      "unitPrice": 5400.0,
+      "totalPrice": 5400.0,
+      "pricesByCategory": [
+        { "category": "OTHER", "unitPrice": 5400.0, "totalPrice": 5400.0 }
+      ]
+    },
+    {
+      "id": "924",
+      "wbsCode": "02",
+      "workItemId": null,
+      "description": "EQUIPAMENTOS E M\u00c1QUINAS ",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 162706.0 }
+      ]
+    },
+    {
+      "id": "958",
+      "wbsCode": "02.000.000.001",
+      "workItemId": 62303,
+      "description": "LOCA\u00c7\u00c3O DE ESCORA MET\u00c1LICA 2,00 A 3,10 METROS",
+      "unitOfMeasure": "vb",
+      "quantity": 1.0,
+      "unitPrice": 115146.0,
+      "totalPrice": 115146.0,
+      "pricesByCategory": [
+        {
+          "category": "EQUIPMENT",
+          "unitPrice": 115146.0,
+          "totalPrice": 115146.0
+        }
+      ]
+    },
+    {
+      "id": "954",
+      "wbsCode": "02.000.000.002",
+      "workItemId": 62305,
+      "description": "LOCA\u00c7\u00c3O DE CA\u00c7AMBA ESTACION\u00c1RIA DE RES\u00cdDUO",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 560.0,
+      "totalPrice": 6160.0,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 560.0, "totalPrice": 6160.0 }
+      ]
+    },
+    {
+      "id": "955",
+      "wbsCode": "02.000.000.003",
+      "workItemId": 62307,
+      "description": "LOCA\u00c7\u00c3O DE MUNCK DE 9 TONELADAS, COM OPERADOR E COMBUST\u00cdVEL ",
+      "unitOfMeasure": "un",
+      "quantity": 1.0,
+      "unitPrice": 26400.0,
+      "totalPrice": 26400.0,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 26400.0, "totalPrice": 26400.0 }
+      ]
+    },
+    {
+      "id": "956",
+      "wbsCode": "02.000.000.004",
+      "workItemId": 62309,
+      "description": "LOCA\u00c7\u00c3O MINI GRUA GIRAT\u00d3RIA 500KG COM LAN\u00c7A DE 3 METROS, 40 METROS DE CABO",
+      "unitOfMeasure": "un",
+      "quantity": 1.0,
+      "unitPrice": 15000.0,
+      "totalPrice": 15000.0,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 15000.0, "totalPrice": 15000.0 }
+      ]
+    },
+    {
+      "id": "927",
+      "wbsCode": "03",
+      "workItemId": null,
+      "description": "DESPESAS INDIRETAS E ADMINISTRA\u00c7\u00c3O DA OBRA",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 68096.6 },
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 254955.42 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 113982.32 },
+        { "category": "OTHER", "unitPrice": 0.0, "totalPrice": 88730.0 }
+      ]
+    },
+    {
+      "id": "928",
+      "wbsCode": "03.001",
+      "workItemId": null,
+      "description": "MOBILIZA\u00c7\u00c3O E DESMOBILIZA\u00c7\u00c3O DE PESSOAL",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 68096.6 },
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 36835.79 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 20982.32 },
+        { "category": "OTHER", "unitPrice": 0.0, "totalPrice": 88730.0 }
+      ]
+    },
+    {
+      "id": "929",
+      "wbsCode": "03.001.000.001",
+      "workItemId": 80026,
+      "description": "MOBILIZA\u00c7\u00c3O DE PESSOAL ",
+      "unitOfMeasure": "vb",
+      "quantity": 1.0,
+      "unitPrice": 11000.0,
+      "totalPrice": 11000.0,
+      "pricesByCategory": [
+        { "category": "OTHER", "unitPrice": 11000.0, "totalPrice": 11000.0 }
+      ]
+    },
+    {
+      "id": "930",
+      "wbsCode": "03.001.000.002",
+      "workItemId": 80027,
+      "description": "DESMOBILIZA\u00c7\u00c3O DE PESSOAL",
+      "unitOfMeasure": "vb",
+      "quantity": 1.0,
+      "unitPrice": 21080.0,
+      "totalPrice": 21080.0,
+      "pricesByCategory": [
+        { "category": "OTHER", "unitPrice": 21080.0, "totalPrice": 21080.0 }
+      ]
+    },
+    {
+      "id": "950",
+      "wbsCode": "03.001.000.003",
+      "workItemId": 47105,
+      "description": "FITA ZEBRADA, CONES E SINALIZA\u00c7\u00d5ES",
+      "unitOfMeasure": "vb",
+      "quantity": 1.0,
+      "unitPrice": 2512.52,
+      "totalPrice": 2512.52,
+      "pricesByCategory": [
+        { "category": "MATERIAL", "unitPrice": 1962.52, "totalPrice": 1962.52 },
+        { "category": "OTHER", "unitPrice": 550.0, "totalPrice": 550.0 }
+      ]
+    },
+    {
+      "id": "952",
+      "wbsCode": "03.001.000.004",
+      "workItemId": 80030,
+      "description": "HOSPEDAGEM E TRANSPORTE (MOI)",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 16368.3808,
+      "totalPrice": 180052.19,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 6190.6, "totalPrice": 68096.6 },
+        { "category": "LABOR", "unitPrice": 3348.708, "totalPrice": 36835.79 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 1729.0728,
+          "totalPrice": 19019.8
+        },
+        { "category": "OTHER", "unitPrice": 5100.0, "totalPrice": 56100.0 }
+      ]
+    },
+    {
+      "id": "931",
+      "wbsCode": "03.002",
+      "workItemId": null,
+      "description": "SERVI\u00c7OS T\u00c9CNICOS",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 2897.15 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 93000.0 }
+      ]
+    },
+    {
+      "id": "932",
+      "wbsCode": "03.002.000.001",
+      "workItemId": 16892,
+      "description": "CONTROLE TECNOL\u00d3GICO DO CONCRETO",
+      "unitOfMeasure": "mes",
+      "quantity": 10.0,
+      "unitPrice": 6000.0,
+      "totalPrice": 60000.0,
+      "pricesByCategory": [
+        { "category": "MATERIAL", "unitPrice": 6000.0, "totalPrice": 60000.0 }
+      ]
+    },
+    {
+      "id": "933",
+      "wbsCode": "03.002.000.002",
+      "workItemId": 14413,
+      "description": "TOPOGRAFO COM ENCARGOS COMPLEMENTARES",
+      "unitOfMeasure": "mes",
+      "quantity": 1.0,
+      "unitPrice": 2897.15,
+      "totalPrice": 2897.15,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 2897.15, "totalPrice": 2897.15 }
+      ]
+    },
+    {
+      "id": "934",
+      "wbsCode": "03.002.000.003",
+      "workItemId": 16898,
+      "description": "SEGURAN\u00c7A E MEDICINA DO TRABALHO",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 3000.0,
+      "totalPrice": 33000.0,
+      "pricesByCategory": [
+        { "category": "MATERIAL", "unitPrice": 3000.0, "totalPrice": 33000.0 }
+      ]
+    },
+    {
+      "id": "935",
+      "wbsCode": "03.003",
+      "workItemId": null,
+      "description": "ADMINISTRA\u00c7\u00c3O DA OBRA",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 215222.48 }
+      ]
+    },
+    {
+      "id": "957",
+      "wbsCode": "03.003.000.001",
+      "workItemId": 62313,
+      "description": "ENGENHEIRO CIVIL PLENO",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 8000.0,
+      "totalPrice": 88000.0,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 8000.0, "totalPrice": 88000.0 }
+      ]
+    },
+    {
+      "id": "938",
+      "wbsCode": "03.003.000.002",
+      "workItemId": 14245,
+      "description": "ALMOXARIFE",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 2309.19,
+      "totalPrice": 25401.09,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 2309.19, "totalPrice": 25401.09 }
+      ]
+    },
+    {
+      "id": "939",
+      "wbsCode": "03.003.000.003",
+      "workItemId": 14412,
+      "description": "MESTRE DE OBRAS",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 5413.85,
+      "totalPrice": 59552.35,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 5413.85, "totalPrice": 59552.35 }
+      ]
+    },
+    {
+      "id": "941",
+      "wbsCode": "03.003.000.004",
+      "workItemId": 26462,
+      "description": "T\u00c9CNICO EM SEGURAN\u00c7A DO TRABALHO",
+      "unitOfMeasure": "mes",
+      "quantity": 11.0,
+      "unitPrice": 3842.64,
+      "totalPrice": 42269.04,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 3842.64, "totalPrice": 42269.04 }
+      ]
+    },
+    {
+      "id": "413",
+      "wbsCode": "04",
+      "workItemId": null,
+      "description": "LOCA\u00c7\u00c3O DA OBRA",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 3135.38 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 2622.85 }
+      ]
+    },
+    {
+      "id": "414",
+      "wbsCode": "04.000.000.001",
+      "workItemId": 16278,
+      "description": "LOCACAO CONVENCIONAL DE OBRA, UTILIZANDO GABARITO DE T\u00c1BUAS CORRIDAS PONTALETADAS A CADA 2,00M -  2 UTILIZA\u00c7\u00d5ES. AF_10/2018",
+      "unitOfMeasure": "m",
+      "quantity": 157.9535,
+      "unitPrice": 36.4552,
+      "totalPrice": 5758.23,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 19.85, "totalPrice": 3135.38 },
+        { "category": "MATERIAL", "unitPrice": 16.6052, "totalPrice": 2622.85 }
+      ]
+    },
+    {
+      "id": "542",
+      "wbsCode": "05",
+      "workItemId": null,
+      "description": "SUPERESTRUTURA",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 6247.79 },
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 341386.19 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 3465022.3 }
+      ]
+    },
+    {
+      "id": "543",
+      "wbsCode": "05.001",
+      "workItemId": null,
+      "description": "PILARES",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 83008.74 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 613573.01 }
+      ]
+    },
+    {
+      "id": "544",
+      "wbsCode": "05.001.001",
+      "workItemId": null,
+      "description": "Forma",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 46205.6 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 185699.92 }
+      ]
+    },
+    {
+      "id": "545",
+      "wbsCode": "05.001.001.001",
+      "workItemId": 80003,
+      "description": "FABRICA\u00c7\u00c3O DE F\u00d4RMA PARA PILARES E ESTRUTURAS SIMILARES, EM CHAPA DE MADEIRA COMPENSADA PLASTIFICADA, E = 18 MM. 4 UTILIZA\u00c7\u00d5ES.",
+      "unitOfMeasure": "m2",
+      "quantity": 2881.87,
+      "unitPrice": 80.4705,
+      "totalPrice": 231905.52,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 16.0332, "totalPrice": 46205.6 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 64.4373,
+          "totalPrice": 185699.92
+        }
+      ]
+    },
+    {
+      "id": "546",
+      "wbsCode": "05.001.002",
+      "workItemId": null,
+      "description": "A\u00e7o",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 22951.45 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 239308.44 }
+      ]
+    },
+    {
+      "id": "547",
+      "wbsCode": "05.001.002.001",
+      "workItemId": 14889,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-60, DI\u00c2METRO DE 5,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 5720.0,
+      "unitPrice": 10.9906,
+      "totalPrice": 62866.24,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 2.0343, "totalPrice": 11636.2 },
+        { "category": "MATERIAL", "unitPrice": 8.9563, "totalPrice": 51230.04 }
+      ]
+    },
+    {
+      "id": "864",
+      "wbsCode": "05.001.002.002",
+      "workItemId": 31371,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 6,3 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 479.0,
+      "unitPrice": 8.8762,
+      "totalPrice": 4251.7,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.5903, "totalPrice": 282.75 },
+        { "category": "MATERIAL", "unitPrice": 8.2859, "totalPrice": 3968.95 }
+      ]
+    },
+    {
+      "id": "865",
+      "wbsCode": "05.001.002.003",
+      "workItemId": 31372,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 8,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 0.0,
+      "unitPrice": 9.3038,
+      "totalPrice": 0.0,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 1.0678, "totalPrice": 0.0 },
+        { "category": "MATERIAL", "unitPrice": 8.236, "totalPrice": 0.0 }
+      ]
+    },
+    {
+      "id": "866",
+      "wbsCode": "05.001.002.004",
+      "workItemId": 31373,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 10,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 5591.0,
+      "unitPrice": 8.5977,
+      "totalPrice": 48069.74,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.7457, "totalPrice": 4169.21 },
+        { "category": "MATERIAL", "unitPrice": 7.852, "totalPrice": 43900.53 }
+      ]
+    },
+    {
+      "id": "867",
+      "wbsCode": "05.001.002.005",
+      "workItemId": 31304,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 12,5 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 8084.0,
+      "unitPrice": 8.0931,
+      "totalPrice": 65424.62,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.4889, "totalPrice": 3952.27 },
+        { "category": "MATERIAL", "unitPrice": 7.6042, "totalPrice": 61472.35 }
+      ]
+    },
+    {
+      "id": "868",
+      "wbsCode": "05.001.002.006",
+      "workItemId": 31305,
+      "description": "ARMA\u00c7\u00c3O CA-50, DI\u00c2METRO DE 16,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 2161.0,
+      "unitPrice": 7.9396,
+      "totalPrice": 17157.48,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.3695, "totalPrice": 798.49 },
+        { "category": "MATERIAL", "unitPrice": 7.5701, "totalPrice": 16358.99 }
+      ]
+    },
+    {
+      "id": "869",
+      "wbsCode": "05.001.002.007",
+      "workItemId": 31306,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 20,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 3621.0,
+      "unitPrice": 7.8378,
+      "totalPrice": 28380.68,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.2894, "totalPrice": 1047.92 },
+        { "category": "MATERIAL", "unitPrice": 7.5484, "totalPrice": 27332.76 }
+      ]
+    },
+    {
+      "id": "870",
+      "wbsCode": "05.001.002.008",
+      "workItemId": 31298,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 25,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 4651.0,
+      "unitPrice": 7.7638,
+      "totalPrice": 36109.43,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.2289, "totalPrice": 1064.61 },
+        { "category": "MATERIAL", "unitPrice": 7.5349, "totalPrice": 35044.82 }
+      ]
+    },
+    {
+      "id": "551",
+      "wbsCode": "05.001.003",
+      "workItemId": null,
+      "description": "Concreto",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 13851.69 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 188564.65 }
+      ]
+    },
+    {
+      "id": "871",
+      "wbsCode": "05.001.003.001",
+      "workItemId": 19379,
+      "description": "CONCRETO BOMBE\u00c1VEL FCK 35MPA (LAN\u00c7AMENTO E ADENSAMENTO)",
+      "unitOfMeasure": "m3",
+      "quantity": 306.72,
+      "unitPrice": 659.9385,
+      "totalPrice": 202416.34,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 45.1607, "totalPrice": 13851.69 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 614.7778,
+          "totalPrice": 188564.65
+        }
+      ]
+    },
+    {
+      "id": "553",
+      "wbsCode": "05.002",
+      "workItemId": null,
+      "description": "VIGAS",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 51376.68 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 975411.31 }
+      ]
+    },
+    {
+      "id": "554",
+      "wbsCode": "05.002.001",
+      "workItemId": null,
+      "description": "Forma",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 34916.69 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 117592.69 }
+      ]
+    },
+    {
+      "id": "555",
+      "wbsCode": "05.002.001.001",
+      "workItemId": 80005,
+      "description": "FABRICA\u00c7\u00c3O DE F\u00d4RMA PARA VIGAS, EM CHAPA DE MADEIRA COMPENSADA RESINADA, E = 17 MM. 2 UTILIZA\u00c7\u00d5ES",
+      "unitOfMeasure": "m2",
+      "quantity": 1341.0,
+      "unitPrice": 113.7281,
+      "totalPrice": 152509.38,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 26.0378, "totalPrice": 34916.69 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 87.6903,
+          "totalPrice": 117592.69
+        }
+      ]
+    },
+    {
+      "id": "556",
+      "wbsCode": "05.002.002",
+      "workItemId": null,
+      "description": "A\u00e7o",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 10690.26 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 779274.61 }
+      ]
+    },
+    {
+      "id": "881",
+      "wbsCode": "05.002.002.001",
+      "workItemId": 14889,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-60, DI\u00c2METRO DE 5,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 656.0,
+      "unitPrice": 10.9906,
+      "totalPrice": 7209.83,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 2.0343, "totalPrice": 1334.5 },
+        { "category": "MATERIAL", "unitPrice": 8.9563, "totalPrice": 5875.33 }
+      ]
+    },
+    {
+      "id": "882",
+      "wbsCode": "05.002.002.002",
+      "workItemId": 31371,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 6,3 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 1054.0,
+      "unitPrice": 8.8762,
+      "totalPrice": 9355.52,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.5903, "totalPrice": 622.18 },
+        { "category": "MATERIAL", "unitPrice": 8.2859, "totalPrice": 8733.34 }
+      ]
+    },
+    {
+      "id": "883",
+      "wbsCode": "05.002.002.003",
+      "workItemId": 31372,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 8,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 1593.0,
+      "unitPrice": 9.3038,
+      "totalPrice": 14820.96,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 1.0678, "totalPrice": 1701.01 },
+        { "category": "MATERIAL", "unitPrice": 8.236, "totalPrice": 13119.95 }
+      ]
+    },
+    {
+      "id": "884",
+      "wbsCode": "05.002.002.004",
+      "workItemId": 31373,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 10,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 3148.0,
+      "unitPrice": 8.5977,
+      "totalPrice": 27065.56,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.7457, "totalPrice": 2347.46 },
+        { "category": "MATERIAL", "unitPrice": 7.852, "totalPrice": 24718.1 }
+      ]
+    },
+    {
+      "id": "885",
+      "wbsCode": "05.002.002.005",
+      "workItemId": 31304,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 12,5 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 5155.0,
+      "unitPrice": 8.0931,
+      "totalPrice": 41719.94,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.4889, "totalPrice": 2520.28 },
+        { "category": "MATERIAL", "unitPrice": 7.6042, "totalPrice": 39199.66 }
+      ]
+    },
+    {
+      "id": "886",
+      "wbsCode": "05.002.002.006",
+      "workItemId": 31305,
+      "description": "ARMA\u00c7\u00c3O CA-50, DI\u00c2METRO DE 16,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 1565.0,
+      "unitPrice": 7.9396,
+      "totalPrice": 12425.48,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.3695, "totalPrice": 578.27 },
+        { "category": "MATERIAL", "unitPrice": 7.5701, "totalPrice": 11847.21 }
+      ]
+    },
+    {
+      "id": "887",
+      "wbsCode": "05.002.002.007",
+      "workItemId": 31306,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 20,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 2339.0,
+      "unitPrice": 7.8378,
+      "totalPrice": 18332.62,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.2894, "totalPrice": 676.91 },
+        { "category": "MATERIAL", "unitPrice": 7.5484, "totalPrice": 17655.71 }
+      ]
+    },
+    {
+      "id": "888",
+      "wbsCode": "05.002.002.008",
+      "workItemId": 31298,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 25,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 3974.0,
+      "unitPrice": 7.7638,
+      "totalPrice": 30853.34,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.2289, "totalPrice": 909.65 },
+        { "category": "MATERIAL", "unitPrice": 7.5349, "totalPrice": 29943.69 }
+      ]
+    },
+    {
+      "id": "944",
+      "wbsCode": "05.002.002.009",
+      "workItemId": 16832,
+      "description": "CORDOALHA MONOENGRAXADA CP 190 12,7 MM 2 TON",
+      "unitOfMeasure": "kg",
+      "quantity": 28271.0,
+      "unitPrice": 22.22,
+      "totalPrice": 628181.62,
+      "pricesByCategory": [
+        { "category": "MATERIAL", "unitPrice": 22.22, "totalPrice": 628181.62 }
+      ]
+    },
+    {
+      "id": "565",
+      "wbsCode": "05.002.003",
+      "workItemId": null,
+      "description": "Concreto",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 5769.73 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 78544.01 }
+      ]
+    },
+    {
+      "id": "872",
+      "wbsCode": "05.002.003.001",
+      "workItemId": 19379,
+      "description": "CONCRETO BOMBE\u00c1VEL FCK 35MPA (LAN\u00c7AMENTO E ADENSAMENTO)",
+      "unitOfMeasure": "m3",
+      "quantity": 127.76,
+      "unitPrice": 659.9385,
+      "totalPrice": 84313.74,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 45.1607, "totalPrice": 5769.73 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 614.7778,
+          "totalPrice": 78544.01
+        }
+      ]
+    },
+    {
+      "id": "567",
+      "wbsCode": "05.003",
+      "workItemId": null,
+      "description": "LAJE",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 6247.79 },
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 199917.03 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 1846564.3 }
+      ]
+    },
+    {
+      "id": "959",
+      "wbsCode": "05.003.001",
+      "workItemId": null,
+      "description": "F\u00f4rma: 2, Pavimento 12, Pavimento 13, Reservat\u00f3rio",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 3647.41 },
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 18154.0 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 29876.96 }
+      ]
+    },
+    {
+      "id": "960",
+      "wbsCode": "05.003.001.001",
+      "workItemId": 31123,
+      "description": "MONTAGEM E DESMONTAGEM DE F\u00d4RMA DE LAJE MACI\u00c7A, P\u00c9-DIREITO SIMPLES, EM CHAPA DE MADEIRA COMPENSADA PLASTIFICADA, 6 UTILIZA\u00c7\u00d5ES. AF_09/2020",
+      "unitOfMeasure": "m2",
+      "quantity": 1003.0,
+      "unitPrice": 51.5238,
+      "totalPrice": 51678.37,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 3.6365, "totalPrice": 3647.41 },
+        { "category": "LABOR", "unitPrice": 18.0997, "totalPrice": 18154.0 },
+        { "category": "MATERIAL", "unitPrice": 29.7876, "totalPrice": 29876.96 }
+      ]
+    },
+    {
+      "id": "961",
+      "wbsCode": "05.003.002",
+      "workItemId": null,
+      "description": "F\u00f4rma: T\u00e9rreo",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 504.47 },
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 11461.64 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 138062.01 }
+      ]
+    },
+    {
+      "id": "962",
+      "wbsCode": "05.003.002.001",
+      "workItemId": 62344,
+      "description": "MOBILIZA\u00c7\u00c3O E DESMOBILIZA\u00c7\u00c3O DO SISTEMA DE F\u00d4RMA DE PL\u00c1STICO",
+      "unitOfMeasure": "vb",
+      "quantity": 1.0,
+      "unitPrice": 2768.0,
+      "totalPrice": 2768.0,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 2768.0, "totalPrice": 2768.0 }
+      ]
+    },
+    {
+      "id": "963",
+      "wbsCode": "05.003.002.002",
+      "workItemId": 62343,
+      "description": "SISTEMA DE F\u00d4RMA COM CIMBRAMENTO MET\u00c1LICO COM LONGARINAS E F\u00d5RMA DE PL\u00c1STICO",
+      "unitOfMeasure": "mes",
+      "quantity": 2.0,
+      "unitPrice": 70056.2819,
+      "totalPrice": 140112.57,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 3091.3925, "totalPrice": 6182.79 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 66964.8894,
+          "totalPrice": 133929.78
+        }
+      ]
+    },
+    {
+      "id": "964",
+      "wbsCode": "05.003.002.003",
+      "workItemId": 31123,
+      "description": "MONTAGEM E DESMONTAGEM DE F\u00d4RMA DE LAJE MACI\u00c7A, P\u00c9-DIREITO SIMPLES, EM CHAPA DE MADEIRA COMPENSADA PLASTIFICADA, 6 UTILIZA\u00c7\u00d5ES. AF_09/2020",
+      "unitOfMeasure": "m2",
+      "quantity": 138.7232,
+      "unitPrice": 51.5238,
+      "totalPrice": 7147.55,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 3.6365, "totalPrice": 504.47 },
+        { "category": "LABOR", "unitPrice": 18.0997, "totalPrice": 2510.85 },
+        { "category": "MATERIAL", "unitPrice": 29.7876, "totalPrice": 4132.23 }
+      ]
+    },
+    {
+      "id": "965",
+      "wbsCode": "05.003.003",
+      "workItemId": null,
+      "description": "F\u00f4rma: Pavimento 3 e Pavimento Tipo",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 0.0, "totalPrice": 2095.91 },
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 25241.99 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 225934.75 }
+      ]
+    },
+    {
+      "id": "966",
+      "wbsCode": "05.003.003.001",
+      "workItemId": 62344,
+      "description": "MOBILIZA\u00c7\u00c3O E DESMOBILIZA\u00c7\u00c3O DO SISTEMA DE F\u00d4RMA DE PL\u00c1STICO",
+      "unitOfMeasure": "vb",
+      "quantity": 2.0,
+      "unitPrice": 2768.0,
+      "totalPrice": 5536.0,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 2768.0, "totalPrice": 5536.0 }
+      ]
+    },
+    {
+      "id": "967",
+      "wbsCode": "05.003.003.002",
+      "workItemId": 80039,
+      "description": "SISTEMA DE F\u00d4RMA COM CIMBRAMENTO MET\u00c1LICO COM LONGARINAS E F\u00d5RMA DE PL\u00c1STICO",
+      "unitOfMeasure": "mes",
+      "quantity": 9.0,
+      "unitPrice": 24226.751,
+      "totalPrice": 218040.76,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 1030.4642, "totalPrice": 9274.18 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 23196.2868,
+          "totalPrice": 208766.58
+        }
+      ]
+    },
+    {
+      "id": "968",
+      "wbsCode": "05.003.003.003",
+      "workItemId": 31123,
+      "description": "MONTAGEM E DESMONTAGEM DE F\u00d4RMA DE LAJE MACI\u00c7A, P\u00c9-DIREITO SIMPLES, EM CHAPA DE MADEIRA COMPENSADA PLASTIFICADA, 6 UTILIZA\u00c7\u00d5ES. AF_09/2020",
+      "unitOfMeasure": "m2",
+      "quantity": 576.3528,
+      "unitPrice": 51.5238,
+      "totalPrice": 29695.89,
+      "pricesByCategory": [
+        { "category": "EQUIPMENT", "unitPrice": 3.6365, "totalPrice": 2095.91 },
+        { "category": "LABOR", "unitPrice": 18.0997, "totalPrice": 10431.81 },
+        { "category": "MATERIAL", "unitPrice": 29.7876, "totalPrice": 17168.17 }
+      ]
+    },
+    {
+      "id": "570",
+      "wbsCode": "05.003.004",
+      "workItemId": null,
+      "description": "A\u00e7o",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 83394.27 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 613236.08 }
+      ]
+    },
+    {
+      "id": "889",
+      "wbsCode": "05.003.004.001",
+      "workItemId": 14889,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-60, DI\u00c2METRO DE 5,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 26698.0,
+      "unitPrice": 10.9906,
+      "totalPrice": 293427.04,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 2.0343, "totalPrice": 54311.74 },
+        { "category": "MATERIAL", "unitPrice": 8.9563, "totalPrice": 239115.3 }
+      ]
+    },
+    {
+      "id": "890",
+      "wbsCode": "05.003.004.002",
+      "workItemId": 31371,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 6,3 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 872.0,
+      "unitPrice": 8.8762,
+      "totalPrice": 7740.04,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.5903, "totalPrice": 514.74 },
+        { "category": "MATERIAL", "unitPrice": 8.2859, "totalPrice": 7225.3 }
+      ]
+    },
+    {
+      "id": "891",
+      "wbsCode": "05.003.004.003",
+      "workItemId": 31372,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 8,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 10094.0,
+      "unitPrice": 9.3038,
+      "totalPrice": 93912.55,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 1.0678, "totalPrice": 10778.37 },
+        { "category": "MATERIAL", "unitPrice": 8.236, "totalPrice": 83134.18 }
+      ]
+    },
+    {
+      "id": "892",
+      "wbsCode": "05.003.004.004",
+      "workItemId": 31373,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 10,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 7233.0,
+      "unitPrice": 8.5977,
+      "totalPrice": 62187.17,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.7457, "totalPrice": 5393.65 },
+        { "category": "MATERIAL", "unitPrice": 7.852, "totalPrice": 56793.52 }
+      ]
+    },
+    {
+      "id": "893",
+      "wbsCode": "05.003.004.005",
+      "workItemId": 31304,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 12,5 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 14319.0,
+      "unitPrice": 8.0931,
+      "totalPrice": 115885.1,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.4889, "totalPrice": 7000.56 },
+        { "category": "MATERIAL", "unitPrice": 7.6042, "totalPrice": 108884.54 }
+      ]
+    },
+    {
+      "id": "894",
+      "wbsCode": "05.003.004.006",
+      "workItemId": 31305,
+      "description": "ARMA\u00c7\u00c3O CA-50, DI\u00c2METRO DE 16,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 10950.0,
+      "unitPrice": 7.9396,
+      "totalPrice": 86938.63,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.3695, "totalPrice": 4046.03 },
+        { "category": "MATERIAL", "unitPrice": 7.5701, "totalPrice": 82892.6 }
+      ]
+    },
+    {
+      "id": "895",
+      "wbsCode": "05.003.004.007",
+      "workItemId": 31306,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 20,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 4662.0,
+      "unitPrice": 7.8378,
+      "totalPrice": 36539.82,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.2894, "totalPrice": 1349.18 },
+        { "category": "MATERIAL", "unitPrice": 7.5484, "totalPrice": 35190.64 }
+      ]
+    },
+    {
+      "id": "896",
+      "wbsCode": "05.003.004.008",
+      "workItemId": 31298,
+      "description": "ARMA\u00c7\u00c3O A\u00c7O CA-50, DI\u00c2METRO DE 25,0 MM",
+      "unitOfMeasure": "kg",
+      "quantity": 0.0,
+      "unitPrice": 7.7638,
+      "totalPrice": 0.0,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.2289, "totalPrice": 0.0 },
+        { "category": "MATERIAL", "unitPrice": 7.5349, "totalPrice": 0.0 }
+      ]
+    },
+    {
+      "id": "572",
+      "wbsCode": "05.003.005",
+      "workItemId": null,
+      "description": "Concreto",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 61665.13 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 839454.5 }
+      ]
+    },
+    {
+      "id": "897",
+      "wbsCode": "05.003.005.001",
+      "workItemId": 19379,
+      "description": "CONCRETO BOMBE\u00c1VEL FCK 35MPA (LAN\u00c7AMENTO E ADENSAMENTO)",
+      "unitOfMeasure": "m3",
+      "quantity": 1365.46,
+      "unitPrice": 659.9385,
+      "totalPrice": 901119.63,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 45.1607, "totalPrice": 61665.13 },
+        {
+          "category": "MATERIAL",
+          "unitPrice": 614.7778,
+          "totalPrice": 839454.5
+        }
+      ]
+    },
+    {
+      "id": "576",
+      "wbsCode": "05.004",
+      "workItemId": null,
+      "description": "CINTAS",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 7083.74 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 29473.68 }
+      ]
+    },
+    {
+      "id": "577",
+      "wbsCode": "05.004.001",
+      "workItemId": null,
+      "description": "Forma",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 6535.49 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 22010.27 }
+      ]
+    },
+    {
+      "id": "898",
+      "wbsCode": "05.004.001.001",
+      "workItemId": 80005,
+      "description": "FABRICA\u00c7\u00c3O DE F\u00d4RMA PARA VIGAS, EM CHAPA DE MADEIRA COMPENSADA RESINADA, E = 17 MM. 2 UTILIZA\u00c7\u00d5ES",
+      "unitOfMeasure": "m2",
+      "quantity": 251.0,
+      "unitPrice": 113.7281,
+      "totalPrice": 28545.76,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 26.0378, "totalPrice": 6535.49 },
+        { "category": "MATERIAL", "unitPrice": 87.6903, "totalPrice": 22010.27 }
+      ]
+    },
+    {
+      "id": "899",
+      "wbsCode": "05.004.002",
+      "workItemId": null,
+      "description": "Concreto",
+      "unitOfMeasure": null,
+      "quantity": null,
+      "unitPrice": null,
+      "totalPrice": null,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 0.0, "totalPrice": 548.25 },
+        { "category": "MATERIAL", "unitPrice": 0.0, "totalPrice": 7463.41 }
+      ]
+    },
+    {
+      "id": "900",
+      "wbsCode": "05.004.002.001",
+      "workItemId": 19379,
+      "description": "CONCRETO BOMBE\u00c1VEL FCK 35MPA (LAN\u00c7AMENTO E ADENSAMENTO)",
+      "unitOfMeasure": "m3",
+      "quantity": 12.14,
+      "unitPrice": 659.9385,
+      "totalPrice": 8011.66,
+      "pricesByCategory": [
+        { "category": "LABOR", "unitPrice": 45.1607, "totalPrice": 548.25 },
+        { "category": "MATERIAL", "unitPrice": 614.7778, "totalPrice": 7463.41 }
+      ]
+    }
+  ],
+  "resultSetMetadata": { "count": 93, "offset": 0, "limit": 100 },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.sienge.com.br/eduardocardoso/public/api/v1/building-cost-estimations/155/sheets/1/items?limit=100"
+    }
+  ]
+}
