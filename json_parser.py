@@ -55,22 +55,26 @@ def linhaReq2excel(linha, idObra, idUnit):
     # Se nao houver LABOR, o valor do material é a unit prices
 
     try:    
-        for i in range(len(dados_json['results'][linha]['pricesByCategory'])):
-            if dados_json['results'][linha]['pricesByCategory'][i]['category'] == "LABOR":
-                # Lógica para o caso de haver LABOR nas categorias
-                labor_unit = dados_json['results'][linha]['pricesByCategory'][i]['unitPrice']
-                if dados_json['results'][linha]['unitPrice'] is not None:
-                    material_unit = dados_json['results'][linha]['unitPrice'] - labor_unit
+        if len(dados_json['results'][linha]['pricesByCategory']) != 0:
+            for i in range(len(dados_json['results'][linha]['pricesByCategory'])):
+                if dados_json['results'][linha]['pricesByCategory'][i]['category'] == "LABOR":
+                    # Lógica para o caso de haver LABOR nas categorias
+                    labor_unit = dados_json['results'][linha]['pricesByCategory'][i]['unitPrice']
+                    if dados_json['results'][linha]['unitPrice'] is not None:
+                        material_unit = dados_json['results'][linha]['unitPrice'] - labor_unit
+                    else:
+                        material_unit = None
+                    break
                 else:
-                    material_unit = None
-                break
-            else:
-                # Lógica para o caso de não haver LABOR nas categorias
-                labor_unit = 0.0
-                if dados_json['results'][linha]['unitPrice'] is not None:
-                    material_unit = dados_json['results'][linha]['unitPrice']
-                else:
-                    material_unit = 0.0
+                    # Lógica para o caso de não haver LABOR nas categorias
+                    labor_unit = 0.0
+                    if dados_json['results'][linha]['unitPrice'] is not None:
+                        material_unit = dados_json['results'][linha]['unitPrice']
+                    else:
+                        material_unit = 0.0
+        else:
+            labor_unit = 0.0
+            material_unit = 0.0    
     except:
         labor_unit = None
         material_unit = None
@@ -112,9 +116,9 @@ def linhaReq2excel(linha, idObra, idUnit):
     
 
 # for i in range(10):
-#     print(linhaReq2excel(i, 99,1)[0])
+#     print(linhaReq2excel(i, 153,1)[0])
 
-# res = linhaReq2excel(2, 99,1)[0]
+# res = linhaReq2excel(2, 153,1)[0]
 # print(res)
 # print(len(res))
 
