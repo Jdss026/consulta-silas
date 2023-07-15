@@ -88,9 +88,12 @@ def linhaReq2excel(linha, idObra, idUnit):
     # unitario 
     unity_price = dados_json['results'][linha]['unitPrice']
 
-    # total
-    total = dados_json['results'][linha]['totalPrice']
-
+    # total    
+    try:
+        total = (labor_unit+material_unit)*quantity
+    except: 
+        total = dados_json['results'][linha]['totalPrice']
+    # total = dados_json['results'][linha]['totalPrice']
     #Unidade Construtiva
 
     # Código	Descrição	Unidade	Quantidade	Mão de obra 	Materiais	Materiais Importados	Mão de obra Importada	Unitário	Total
@@ -115,8 +118,8 @@ def linhaReq2excel(linha, idObra, idUnit):
 
     
 
-# for i in range(10):
-#     print(linhaReq2excel(i, 153,1)[0])
+# for i in range(100):
+#     print(linhaReq2excel(i, 153,1)[0][4:9])
 
 # res = linhaReq2excel(2, 153,1)[0]
 # print(res)

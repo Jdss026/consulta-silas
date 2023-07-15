@@ -41,6 +41,7 @@ def comBotaoxlsx():
     idobra, iduc, bdi, encargos = numeros
     isRequisitionCompleted(idobra,iduc)
     insert_rows_xls(idobra,iduc, bdi, encargos)
+    clicar_botao2()
 
 def obter_numreqmax():
     # Exemplo de função que retorna um número (pode ser substituída pela sua própria lógica)
@@ -65,7 +66,7 @@ def clicar_botao1():
     print("Botão 1 clicado!")
 
 def clicar_botao2():
-    print("Botão 2 clicado!")
+    #print("Botão 2 clicado!")
     messagebox.showinfo("Mensagem", "EXCEL GERADO!")
 
 def clicar_botao3():

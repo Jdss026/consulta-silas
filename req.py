@@ -34,7 +34,7 @@ def isRequisitionCompleted(idObra, idUnit):
     # planejamentoObra="/building-projects/"+idObra+"/sheets/1/tasks"
     # pedidoObra="/purchase-orders/"
 
-    orcamento="/building-cost-estimations/"+str(idObra)+"/sheets/"+str(idUnit)+"/items"
+    orcamento="/building-cost-estimations/"+str(idObra)+"/sheets/"+str(idUnit)+"/items?limit=200"
     r = requests.get('https://api.sienge.com.br/eduardocardoso/public/api/v1'+orcamento, auth=('eduardocardoso-prevision', '2vmNEPuUuXtYOTRPtUJi1KMXVVcGGXBE'))
 
     if r.status_code == 200:
