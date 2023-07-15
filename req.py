@@ -1,7 +1,15 @@
 import requests
 import json
 from arq2xls import get_dir
-import datetime
+import configparser
+
+# Read credentials from a configuration file
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+username = config.get('Credentials', 'username')
+password = config.get('Credentials', 'password')
+
 
 def pullEnterprisesList():
     '''
@@ -9,7 +17,7 @@ def pullEnterprisesList():
     a cada abertura de tela
     '''
     clientes="/enterprises?limit=200"
-    r = requests.get('https://api.sienge.com.br/eduardocardoso/public/api/v1'+clientes, auth=('eduardocardoso-prevision', '2vmNEPuUuXtYOTRPtUJi1KMXVVcGGXBE'))
+    r = requests.get('https://api.sienge.com.br/eduardocardoso/public/api/v1'+clientes, auth=(username, password))
 
     if r.status_code == 200:
         s = json.dumps(r.json())
