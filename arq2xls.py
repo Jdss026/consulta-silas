@@ -56,17 +56,25 @@ def insert_rows_xls(idObra, idUC, bdi, encargos):
             if cell.col_idx == 5:
                 # linha de mao de obra
                 res = linhaReq2excel(cell.row-linha_inicial, idObra, idUC)[0][cell.col_idx-1] 
-                if res is None:
-                    cell.value = 0
-                else:
+                try:
                     cell.value = float(res)*(1+bdi/100)*(1+encargos/100)
-            if cell.col_idx == 6:
+                except:
+                    cell.value = 0
+                # if res is None:
+                #     cell.value = 0
+                # else:
+                #     cell.value = float(res)*(1+bdi/100)*(1+encargos/100)
+            elif cell.col_idx == 6:
                 # linha de materiais
                 res = linhaReq2excel(cell.row-linha_inicial, idObra, idUC)[0][cell.col_idx-1] 
-                if res is None:        
+                try:
+                    cell.value = float(res)*(1+bdi/100)
+                except:
                     cell.value = 0
-                else:
-                    cell.value = float(res)*(1+encargos/100)
+                # if res is None:        
+                #     cell.value = 0
+                # else:
+                #     cell.value = float(res)*(1+bdi/100)
             else:
                 res = linhaReq2excel(cell.row-linha_inicial, idObra, idUC)[0][cell.col_idx-1]         
                 cell.value = res
@@ -74,5 +82,5 @@ def insert_rows_xls(idObra, idUC, bdi, encargos):
     arquivo_excel.save(destino)
 
 # teste para executar função que adiciona linhas no arquivo xls
-# idObra = 99
+# idObra = 93
 # insert_rows_xls(idObra, 1)

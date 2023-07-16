@@ -87,12 +87,14 @@ def linhaReq2excel(linha, idObra, idUnit):
 
     # unitario 
     # unity_price = dados_json[linha]['unitPrice']
-    unity_price = labor_unit+material_unit
+    # unity_price = labor_unit+material_unit
     # total    
-    try:
-        total = (labor_unit+material_unit)*quantity
-    except: 
-        total = dados_json[linha]['totalPrice']
+
+    # try:
+    #     total = (labor_unit+material_unit)*quantity
+    # except: 
+    #     total = dados_json[linha]['totalPrice']
+    
     # total = dados_json[linha]['totalPrice']
     #Unidade Construtiva
 
@@ -100,7 +102,7 @@ def linhaReq2excel(linha, idObra, idUnit):
 
     #labels = ['wbsCode', 'description', 'unitOfMeasure', 'quantity', str("['pricesByCategory'][1]['unitPrice']"), str("['pricesByCategory'][0]['unitPrice']"), 'unitPrice', 'totalPrice']
     # return ((codArv, description, unity, quantity, labor_unit, material_unit, unity_price, total), tam)
-    return ((codArv, description, unity, quantity, labor_unit, material_unit, labor_unit+material_unit, (labor_unit+material_unit)*quantity), tam)
+    return ((codArv, description, unity, quantity, labor_unit, material_unit), tam)
 
 def TamReq(idObra, idUnit):
     caminho = get_dir()

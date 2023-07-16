@@ -24,8 +24,8 @@ def obter_numero():
         # global numero_ent_idObra
         numero_ent_idObra = int(caixa_entrada.get())
         numero_ent_uc = caixa_entrada_uc.get()
-        numero_ent_bdi = caixa_entrada_bdi.get()
-        numero_ent_encargos = caixa_entrada_encargos.get()
+        numero_ent_bdi = float(caixa_entrada_bdi.get())
+        numero_ent_encargos = float(caixa_entrada_encargos.get())
         return numero_ent_idObra, numero_ent_uc, numero_ent_bdi, numero_ent_encargos
     except ValueError:
         return False
