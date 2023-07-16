@@ -100,7 +100,7 @@ def linhaReq2excel(linha, idObra, idUnit):
 
     #labels = ['wbsCode', 'description', 'unitOfMeasure', 'quantity', str("['pricesByCategory'][1]['unitPrice']"), str("['pricesByCategory'][0]['unitPrice']"), 'unitPrice', 'totalPrice']
     # return ((codArv, description, unity, quantity, labor_unit, material_unit, unity_price, total), tam)
-    return ((codArv, description, unity, quantity, labor_unit, material_unit, "", ""), tam)
+    return ((codArv, description, unity, quantity, labor_unit, material_unit, labor_unit+material_unit, (labor_unit+material_unit)*quantity), tam)
 
 def TamReq(idObra, idUnit):
     caminho = get_dir()
