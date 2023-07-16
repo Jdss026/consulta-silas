@@ -10,8 +10,8 @@ def listarObras():
     arquivo.close()
 
     lista_obras = []
-    for i in range(len(dados_json['results'])):
-        lista_obras.append(f"{dados_json['results'][i]['id']} - {dados_json['results'][i]['name']}")
+    for i in range(len(dados_json)):
+        lista_obras.append(f"{dados_json[i]['id']} - {dados_json[i]['name']}")
     return lista_obras
 
 
@@ -29,25 +29,25 @@ def linhaReq2excel(linha, idObra, idUnit):
     arquivo.close()
     # Identificação dos registros de interesse
     # tamanho
-    tam = len(dados_json['results'])
+    tam = len(dados_json)
 
     # Obra 
-    obra = dados_json['results'][linha]['description']
+    obra = dados_json[linha]['description']
 
     #Id inicial
-    idInicial = dados_json['results'][linha]['id']
+    idInicial = dados_json[linha]['id']
 
     # Codigo arvore
-    codArv = dados_json['results'][linha]['wbsCode']
+    codArv = dados_json[linha]['wbsCode']
 
     #descricao
-    description = dados_json['results'][linha]['description']
+    description = dados_json[linha]['description']
 
     #unidade
-    unity = dados_json['results'][linha]['unitOfMeasure']
+    unity = dados_json[linha]['unitOfMeasure']
 
     #quantidade
-    quantity = dados_json['results'][linha]['quantity']
+    quantity = dados_json[linha]['quantity']
 
     # mao de obra
 
@@ -55,21 +55,21 @@ def linhaReq2excel(linha, idObra, idUnit):
     # Se nao houver LABOR, o valor do material é a unit prices
 
     try:    
-        if len(dados_json['results'][linha]['pricesByCategory']) != 0:
-            for i in range(len(dados_json['results'][linha]['pricesByCategory'])):
-                if dados_json['results'][linha]['pricesByCategory'][i]['category'] == "LABOR":
+        if len(dados_json[linha]['pricesByCategory']) != 0:
+            for i in range(len(dados_json[linha]['pricesByCategory'])):
+                if dados_json[linha]['pricesByCategory'][i]['category'] == "LABOR":
                     # Lógica para o caso de haver LABOR nas categorias
-                    labor_unit = dados_json['results'][linha]['pricesByCategory'][i]['unitPrice']
-                    if dados_json['results'][linha]['unitPrice'] is not None:
-                        material_unit = dados_json['results'][linha]['unitPrice'] - labor_unit
+                    labor_unit = dados_json[linha]['pricesByCategory'][i]['unitPrice']
+                    if dados_json[linha]['unitPrice'] is not None:
+                        material_unit = dados_json[linha]['unitPrice'] - labor_unit
                     else:
                         material_unit = None
                     break
                 else:
                     # Lógica para o caso de não haver LABOR nas categorias
                     labor_unit = 0.0
-                    if dados_json['results'][linha]['unitPrice'] is not None:
-                        material_unit = dados_json['results'][linha]['unitPrice']
+                    if dados_json[linha]['unitPrice'] is not None:
+                        material_unit = dados_json[linha]['unitPrice']
                     else:
                         material_unit = 0.0
         else:
@@ -86,20 +86,33 @@ def linhaReq2excel(linha, idObra, idUnit):
     #     material_unit = None
 
     # unitario 
-    unity_price = dados_json['results'][linha]['unitPrice']
-
+    # unity_price = dados_json[linha]['unitPrice']
+    unity_price = labor_unit+material_unit
     # total    
     try:
         total = (labor_unit+material_unit)*quantity
     except: 
-        total = dados_json['results'][linha]['totalPrice']
-    # total = dados_json['results'][linha]['totalPrice']
+        total = dados_json[linha]['totalPrice']
+    # total = dados_json[linha]['totalPrice']
     #Unidade Construtiva
 
     # Código	Descrição	Unidade	Quantidade	Mão de obra 	Materiais	Materiais Importados	Mão de obra Importada	Unitário	Total
 
     #labels = ['wbsCode', 'description', 'unitOfMeasure', 'quantity', str("['pricesByCategory'][1]['unitPrice']"), str("['pricesByCategory'][0]['unitPrice']"), 'unitPrice', 'totalPrice']
-    return ((codArv, description, unity, quantity, labor_unit, material_unit, unity_price, total), tam)
+    # return ((codArv, description, unity, quantity, labor_unit, material_unit, unity_price, total), tam)
+    return ((codArv, description, unity, quantity, labor_unit, material_unit, "", ""), tam)
+
+def TamReq(idObra, idUnit):
+    caminho = get_dir()
+    with open(caminho+"idObra_Json_{}_uc_{}.json".format(idObra, idUnit), 'r') as arquivo:
+        dados_json = json.load(arquivo)
+    arquivo.close()
+    # Identificação dos registros de interesse
+    # tamanho
+    tam = len(dados_json)
+    return tam
+
+
 
     # Acessar os dados do JSON
     # valor = dados_json['results'][12]['totalPrice']
@@ -116,10 +129,8 @@ def linhaReq2excel(linha, idObra, idUnit):
 
     # Outras operações com os dados JSON...
 
-    
-
 # for i in range(100):
-#     print(linhaReq2excel(i, 153,1)[0][4:9])
+#     print(linhaReq2excel(i, 93,1)[0])
 
 # res = linhaReq2excel(2, 153,1)[0]
 # print(res)
